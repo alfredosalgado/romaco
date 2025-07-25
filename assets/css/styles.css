@@ -404,7 +404,12 @@ h3 {
 
 /* Products Section */
 .products {
-    padding: 100px 0;
+    padding: 100px 0 20px 0;
+}
+
+/* Container adicional de productos (antes de company section) */
+.products + .container {
+    padding-bottom: 100px;
 }
 
 .products-grid {
@@ -654,8 +659,12 @@ h3 {
 
 /* Company Section */
 .company {
-    background: var(--secondary-color);
+    background: linear-gradient(rgba(255, 255, 255, 0.767), rgba(255, 255, 255, 0.685)), url('../img/seccion2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     padding: 100px 0;
+    position: relative;
 }
 
 .company-content {
