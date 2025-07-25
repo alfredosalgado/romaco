@@ -37,9 +37,7 @@
 
 #### Columna 1:
 1. **ACELERANTE DE FRAGUADO**
-   - RAPIDROM SC (sin cloruros)
    - RAPIDROM (con cloruros)
-   - ROMA 5 (para shotcrete)
 
 #### Columna 2:
 2. **DESMOLDANTES**
@@ -50,14 +48,12 @@
 3. **IMPERMEABILIZANTES**
    - ROMA FUGO
    - ROMA ONE
-   - ROMA FLEX
    - ROMATEX FLEX
 
 #### Columna 3:
 4. **MEMBRANA DE CURADO**
    - AQUA CURE
    - SOLCURE AMBAR
-   - SOLCURE BLANCA
 
 5. **POLVOS**
    - ROMATOP FLEX
@@ -65,13 +61,12 @@
 
 6. **PRODUCTOS PARA PISOS**
    - ANTIPOLUROM
-   - ROMAFLOOR A
-   - ROMAFLOOR S (Blanca, Gris, Incoloro)
+   - ROMAFLOOR S GRIS
+   - ROMAFLOOR S INCOLORO
 
 7. **PROMOTOR DE YESO**
    - ROMA YESO
    - ROMA TECNOYESO
-   - YESO MIX
 
 8. **PROMOTOR ESTUCO**
    - ROMA LATEX LISTO

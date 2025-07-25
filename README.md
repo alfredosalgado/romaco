@@ -100,13 +100,13 @@ romaco/
 - Call-to-action integrado
 
 ### 🧪 **Catálogo de Productos** (9 Categorías)
-1. **Acelerante de Fraguado** - RAPIDROM SC, RAPIDROM, ROMA 5
+1. **Acelerante de Fraguado** - RAPIDROM
 2. **Desmoldantes** - ECO DESMOL, DESMOLROM METAL/MADERA
-3. **Impermeabilizantes** - ROMA FUGO, ROMA ONE, ROMA FLEX, ROMATEX FLEX
-4. **Membrana de Curado** - AQUA CURE, SOLCURE AMBAR/BLANCA
+3. **Impermeabilizantes** - ROMA FUGO, ROMA ONE, ROMATEX FLEX
+4. **Membrana de Curado** - AQUA CURE, SOLCURE AMBAR
 5. **Polvos** - ROMATOP FLEX, ROMATOP SEAL
-6. **Productos para Pisos** - ANTIPOLUROM, ROMAFLOOR A/S
-7. **Promotor de Yeso** - ROMA YESO, ROMA TECNOYESO, YESO MIX
+6. **Productos para Pisos** - ANTIPOLUROM, ROMAFLOOR S GRIS, ROMAFLOOR S INCOLORO
+7. **Promotor de Yeso** - ROMA YESO, ROMA TECNOYESO
 8. **Promotor Estuco** - ROMA LATEX LISTO, ROMA LATEX
 9. **Retardadores de Fraguado** - ROMGOSO
 

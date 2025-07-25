@@ -5,12 +5,8 @@ Esta carpeta contiene las fichas técnicas y hojas de seguridad de todos los pro
 ## Estructura de archivos:
 
 ### Acelerantes de Fraguado
-- rapidrom-sc-ficha-tecnica.pdf
-- rapidrom-sc-hoja-seguridad.pdf
 - rapidrom-ficha-tecnica.pdf
 - rapidrom-hoja-seguridad.pdf
-- roma-5-ficha-tecnica.pdf
-- roma-5-hoja-seguridad.pdf
 
 ### Desmoldantes
 - eco-desmol-ficha-tecnica.pdf
@@ -25,8 +21,6 @@ Esta carpeta contiene las fichas técnicas y hojas de seguridad de todos los pro
 - roma-fugo-hoja-seguridad.pdf
 - roma-one-ficha-tecnica.pdf
 - roma-one-hoja-seguridad.pdf
-- roma-flex-ficha-tecnica.pdf
-- roma-flex-hoja-seguridad.pdf
 - romatex-flex-ficha-tecnica.pdf
 - romatex-flex-hoja-seguridad.pdf
 
@@ -35,8 +29,6 @@ Esta carpeta contiene las fichas técnicas y hojas de seguridad de todos los pro
 - aqua-cure-hoja-seguridad.pdf
 - solcure-ambar-ficha-tecnica.pdf
 - solcure-ambar-hoja-seguridad.pdf
-- solcure-blanca-ficha-tecnica.pdf
-- solcure-blanca-hoja-seguridad.pdf
 
 ### Polvos
 - romatop-flex-ficha-tecnica.pdf
@@ -47,18 +39,16 @@ Esta carpeta contiene las fichas técnicas y hojas de seguridad de todos los pro
 ### Productos para Pisos
 - antipolurom-ficha-tecnica.pdf
 - antipolurom-hoja-seguridad.pdf
-- romafloor-a-ficha-tecnica.pdf
-- romafloor-a-hoja-seguridad.pdf
-- romafloor-s-ficha-tecnica.pdf
-- romafloor-s-hoja-seguridad.pdf
+- romafloor-s-gris-ficha-tecnica.pdf
+- romafloor-s-gris-hoja-seguridad.pdf
+- romafloor-s-incoloro-ficha-tecnica.pdf
+- romafloor-s-incoloro-hoja-seguridad.pdf
 
 ### Promotores de Yeso
 - roma-yeso-ficha-tecnica.pdf
 - roma-yeso-hoja-seguridad.pdf
 - roma-tecnoyeso-ficha-tecnica.pdf
 - roma-tecnoyeso-hoja-seguridad.pdf
-- yeso-mix-ficha-tecnica.pdf
-- yeso-mix-hoja-seguridad.pdf
 
 ### Promotores de Estuco
 - roma-latex-listo-ficha-tecnica.pdf
