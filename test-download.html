@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Descarga</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .product-item { border: 1px solid #ccc; padding: 20px; margin: 10px; }
+        .product-name { font-weight: bold; font-size: 18px; margin-bottom: 10px; }
+        .product-link { 
+            display: inline-block; 
+            margin: 5px 10px 5px 0; 
+            padding: 10px 15px; 
+            background: #007bff; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product-link:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Test de Sistema de Descarga</h1>
+    
+    <div class="product-item">
+        <div class="product-name">RAPIDROM</div>
+        <div class="product-description">Producto de prueba para verificar descargas</div>
+        <div class="product-links">
+            <a href="#" class="product-link">Ficha Técnica</a>
+            <a href="#" class="product-link">Hoja de Seguridad</a>
+        </div>
+    </div>
+    
+    <div class="product-item">
+        <div class="product-name">ECO DESMOL</div>
+        <div class="product-description">Otro producto de prueba</div>
+        <div class="product-links">
+            <a href="#" class="product-link">Ficha Técnica</a>
+            <a href="#" class="product-link">Hoja de Seguridad</a>
+        </div>
+    </div>
+    
+    <button onclick="window.initDownloadSystem()" style="margin-top: 20px; padding: 10px; background: #28a745; color: white; border: none; border-radius: 5px;">
+        Reinicializar Sistema
+    </button>
+    
+    <script src="assets/js/download-handler.js"></script>
+</body>
+</html>
