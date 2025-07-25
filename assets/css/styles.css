@@ -344,7 +344,7 @@ h3 {
 
 /* Value Proposition */
 .value-proposition {
-    background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.295)), url('/assets/img/seccion1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.226)), url('../img/seccion1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

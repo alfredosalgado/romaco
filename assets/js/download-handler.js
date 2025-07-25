@@ -95,7 +95,7 @@ async function fileExists(url) {
 // Función para descargar archivo
 async function downloadFile(url, filename) {
     console.log(`Intentando descargar: ${url}`);
-    
+
     // Verificar si el archivo existe
     const exists = await fileExists(url);
     if (!exists) {
@@ -103,25 +103,25 @@ async function downloadFile(url, filename) {
         alert(`Error: No se pudo encontrar el archivo. Verifique que el archivo existe en la ruta: ${url}`);
         return false;
     }
-    
+
     try {
         // Crear elemento de enlace temporal
         const link = document.createElement('a');
         link.href = url;
         link.download = filename || '';
         link.target = '_blank';
-        
+
         // Agregar al DOM temporalmente
         document.body.appendChild(link);
-        
+
         // Hacer clic programáticamente
         link.click();
-        
+
         // Remover del DOM después de un pequeño delay
         setTimeout(() => {
             document.body.removeChild(link);
         }, 100);
-        
+
         console.log(`Descarga iniciada: ${filename}`);
         return true;
     } catch (error) {
@@ -135,30 +135,30 @@ async function downloadFile(url, filename) {
 function handleProductClick(event) {
     event.preventDefault();
     event.stopPropagation();
-    
+
     console.log('Clic detectado en enlace de producto');
-    
+
     const link = event.currentTarget;
     const productItem = link.closest('.product-item');
-    
+
     if (!productItem) {
         console.error('No se encontró el elemento producto');
         alert('Error: No se pudo identificar el producto');
         return;
     }
-    
+
     const productNameElement = productItem.querySelector('.product-name');
     if (!productNameElement) {
         console.error('No se encontró el nombre del producto');
         alert('Error: No se pudo identificar el nombre del producto');
         return;
     }
-    
+
     const productName = productNameElement.textContent.trim();
     const linkText = link.textContent.trim();
-    
+
     console.log(`Procesando clic: "${linkText}" para producto: "${productName}"`);
-    
+
     const productData = PDF_FILES[productName];
     if (!productData) {
         console.error(`No se encontraron archivos para el producto: ${productName}`);
@@ -166,10 +166,10 @@ function handleProductClick(event) {
         alert(`No se encontraron archivos para el producto: ${productName}`);
         return;
     }
-    
+
     let fileUrl = null;
     let fileName = null;
-    
+
     if (linkText.includes('Ficha Técnica') || linkText.includes('Ficha')) {
         if (productData.ficha) {
             fileUrl = productData.ficha;
@@ -189,12 +189,12 @@ function handleProductClick(event) {
             return;
         }
     }
-    
+
     if (fileUrl) {
         // Mostrar indicador de descarga
         link.style.opacity = '0.7';
         link.innerHTML = 'Descargando...';
-        
+
         downloadFile(fileUrl, fileName).then(success => {
             // Restaurar el enlace después de la descarga
             setTimeout(() => {
@@ -213,29 +213,29 @@ function handleProductClick(event) {
 }
 
 // Inicializar cuando el DOM esté listo
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     console.log('Inicializando sistema de descarga...');
-    
+
     // Agregar event listeners a todos los enlaces de productos
     const productLinks = document.querySelectorAll('.product-link');
     console.log(`Encontrados ${productLinks.length} enlaces de productos`);
-    
+
     productLinks.forEach(link => {
         // Remover event listeners existentes
         link.removeEventListener('click', handleProductClick);
         // Agregar nuevo event listener
         link.addEventListener('click', handleProductClick);
-        
+
         // Asegurar que el enlace sea clickeable
         link.style.pointerEvents = 'auto';
         link.style.cursor = 'pointer';
     });
-    
+
     console.log('Sistema de descarga inicializado correctamente');
 });
 
 // Función global para reinicializar (útil para debugging)
-window.initDownloadSystem = function() {
+window.initDownloadSystem = function () {
     const event = new Event('DOMContentLoaded');
     document.dispatchEvent(event);
 };
