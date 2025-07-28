@@ -1692,4 +1692,82 @@ html {
     .highlight-box {
         padding: 20px;
     }
+}/* Respo
+nsive Design para página Nosotros */
+@media (max-width: 768px) {
+    .hero-about {
+        height: 60vh;
+        min-height: 400px;
+        margin-top: 120px;
+        padding-top: 60px;
+    }
+    
+    .hero-about .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-about .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .about-image {
+        position: static;
+        order: -1;
+    }
+    
+    .about-text h2 {
+        font-size: 2rem;
+    }
+    
+    .mission-vision-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .mission-vision-section {
+        margin: 60px 0;
+        padding: 60px 20px;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .quality-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .quality-list li i {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-about .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .mission-card,
+    .vision-card {
+        padding: 30px 20px;
+    }
+    
+    .feature-card {
+        padding: 30px 20px;
+    }
+    
+    .highlight-box {
+        padding: 20px;
+    }
+    
+    .mission-vision-section {
+        padding: 50px 15px;
+    }
 }
